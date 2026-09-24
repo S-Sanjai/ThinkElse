@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Environment
+.env
+.env.*
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# ML data
+data/*.npy
+data/*.bin
+data/*.txt
+data/*.zip
+
+# Local logs
+*.log
+scores.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+#Glove
+Glove/
+
+DAT_Clone_Project_Blueprint.pdf
