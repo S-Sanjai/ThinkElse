@@ -4,7 +4,7 @@ import json
 class WordValidator:
 
     def __init__(self, path):
-        with open(path) as f:
+        with open(path, "r", encoding="utf-8") as f:
             self.words = set(json.load(f))
 
     def check_one(self, word, others=()):
